@@ -1,0 +1,112 @@
+.container-flex a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.container-fluid h2{
+    color: #00205B;
+    font-weight: bold;
+
+}
+
+.container-flex{
+    display: flex;
+    gap: 1em;
+    margin-top: 6em;
+    
+
+}
+
+.container-flex h5{
+    color: #00205B;
+    font-weight: bold;
+
+}
+
+/* INPUT DESIGN */
+
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 16px;
+    padding: 11px 12px 10px 15px;
+    outline: none;
+    border: none;
+    background-color: #f7f8fa;
+    width: 100%;
+    color: #000;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left:0;
+    top: 5px;
+    padding: 0.4em;
+    margin-left: 0.5em;
+    transition: all 0.2s ease;
+    color: #203250;
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(0.9);
+    margin-left: 0em;
+    padding: 0px 0px;
+    font-size: 12px;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+  }
+
+
+.signcreate{
+    text-align: center;
+    display: grid;
+    gap: 1em;
+}
+
+
+.New-customer button:hover{
+    color: white;
+    background-color: #00205B;
+    
+}
+
+.signcreate button{
+    background-color: #FFD200;
+}
+
+.signcreate button:hover{
+    background-color: #00205B;
+    color: #f7f8fa;
+}
+
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 785px) {
+
+    .container-flex{
+        display: block;  
+    
+    }
+    
+    .New-customer{
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
